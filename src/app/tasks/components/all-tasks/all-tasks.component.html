@@ -1,1 +1,12 @@
-<p>all-tasks works!</p>
+<section class="tasks-container">
+	<h2>All tasks</h2>
+	<input type="text"
+					placeholder="Find the task ..."
+					#inputTask
+					(keyup)="findTheTask()">
+	<div class="all-tasks">
+		<app-task *ngFor="let task of taskFilter()"
+							[task]="task"
+						></app-task>
+	</div>
+</section>

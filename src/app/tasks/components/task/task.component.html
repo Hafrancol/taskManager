@@ -1,1 +1,15 @@
-<p>task works!</p>
+<section *ngIf="task"
+					class="task"
+					(click)="showMore(task.id)">
+
+ <header class="header">
+	 <h5>{{task.taskTitle}}</h5>
+	 <p>{{completedDate()}}</p>
+		
+ </header>
+
+ <div class="body">
+	<p>{{contentBody()}}</p>
+ </div>
+
+</section>

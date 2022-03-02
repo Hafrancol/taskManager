@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./entry-page.component.scss']
 })
 export class EntryPageComponent implements OnInit {
+	public title:string = 'Titulo'
 
   constructor() { }
 
