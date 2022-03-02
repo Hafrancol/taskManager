@@ -1,0 +1,32 @@
+.tasks-container{
+	text-align: center;
+	width: 100%;
+	padding: 0 10px;
+}
+
+.all-tasks{
+	height: 82vh;
+	overflow: scroll;
+	margin-top: 15px;
+}
+
+input{
+
+	border: 1px solid rgb(119, 118, 118);
+	height: 30px;
+	width: 90%;
+	border-radius: 5px;
+	padding: 1px;
+	margin: 3px 0;
+	
+	
+	&:focus {
+		outline: none;
+		border: 1px solid black;	
+	}
+
+	&:active {
+		outline: none;
+		border: 1px solid black;	
+	}
+}

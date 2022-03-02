@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { EntryPageComponent } from './components/pages/entry-page/entry-page.component';
+
 import { TaskLayoutComponent } from './layout/task-layout/task-layout.component';
+import { EntryPageComponent } from './pages/entry-page/entry-page.component';
 
 const routes: Routes = [
 	{
